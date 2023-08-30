@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  color: white;
+  @font-face {
+    font-family: 'Roboto-medium';
+    src: url(./assets/Roboto-Medium.woff) format(opentype);
+  }
+  @font-face {
+    font-family: 'Roboto-bold';
+    src: url(./assets/Roboto-Bold.woff) format(opentype);
+  }
+}
+
+body {
+  background-color: black;
+}

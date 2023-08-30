@@ -1,0 +1,23 @@
+
+.container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: rgba(240, 248, 255, 0.24);
+  border-radius: 5px;
+  padding: 10px;
+  h1 {
+    font-family: 'Roboto-bold';
+    letter-spacing: 0.5rem;
+  }
+  p {
+    padding: 10px;
+  }
+  .article_heading {
+    display: inline;
+  }
+}

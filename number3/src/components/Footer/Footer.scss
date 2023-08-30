@@ -1,0 +1,15 @@
+
+
+.footer_container {
+  background-color:rgba(76, 75, 75, 0.535);
+  position: absolute;
+  margin-top: 5vh;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 30vh;
+  text-align: center;
+  #footerLogo {
+    width:60px;
+    height:60px;
+  }
+}
