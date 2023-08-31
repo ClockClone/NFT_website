@@ -1,23 +1,17 @@
 
-.container {
-  width: 600px;
+.main-with-sidebar {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 10vh;
-  margin-right: 20px;
-  margin-left: 20px;
-  background-color: rgba(240, 248, 255, 0.24);
-  border-radius: 5px;
-  padding: 10px;
-  h1 {
-    font-family: 'Roboto-bold';
-    letter-spacing: 0.5rem;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 1em;
+  max-width: 1200px;
+  margin-inline: auto;
+  :first-child {
+    flex-basis: 500px;
+    flex-grow: 9999;
   }
-  p {
-    padding: 10px;
-  }
-  .article_heading {
-    display: inline;
+  :last-child {
+    flex-basis: 300px;
+    flex-grow: 1;
   }
 }

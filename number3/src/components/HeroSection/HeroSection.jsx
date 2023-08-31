@@ -6,11 +6,7 @@ function HeroSection() {
 		<div className="centerdiv">
 			<div className="HeroSection_container">
 				<h1>
-					<em>NFTs,</em>
-					<br />
-					<em>Bitcoin,</em>
-					<br />
-					and <em>ETH</em> for sale
+					<em>Bitcoin News</em>
 				</h1>
 			</div>
 		</div>

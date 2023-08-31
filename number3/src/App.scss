@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  color: white;
+  color: black;
   @font-face {
     font-family: 'Roboto-medium';
     src: url(./assets/Roboto-Medium.woff) format(opentype);
@@ -12,5 +12,23 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  // background-image:url("./assets/bitcoin.jpg");
+  background-size:cover;
 }
+
+
+
+// body:hover {
+//   background-color: rgb(0, 0, 0, 0.5);
+// }
+
+// body:before {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background-color: inherit;
+//   content: ' ';
+// }

@@ -4,7 +4,8 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  background-image: url("../../assets/bitcoin.jpg");
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.525);
   background-size: cover;
   min-height: 30vh;
 }
